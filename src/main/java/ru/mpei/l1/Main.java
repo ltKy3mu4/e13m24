@@ -48,5 +48,34 @@ public class Main {
 
         System.out.println(" double result of math operation = " + dRes + " and first .. = "+f1);
 
+        boolean b1 = true;
+        boolean b2 = false;
+
+        boolean bRes = b1 && b2;
+        System.out.println(bRes);
+
+        bRes = b1 || b2;
+        System.out.println(bRes);
+
+        bRes = !(b1 && b2);
+        System.out.println(bRes);
+
+        boolean b3 = !b1;
+
+        if (b3 == true){
+            System.out.println("result equals true");
+        } else {
+            System.out.println("result equals false");
+        }
+
+
+        int a2 = 10 % 3;
+
+
+        if (a2 >= 2 && 2%3==4){
+            System.out.println(" A > 2");
+        } else {
+            System.out.println("A < 2");
+        }
     }
 }
