@@ -10,4 +10,8 @@ public abstract class Animal {
 //        this.age = age;
 //        this.type = type;
 //    }
+
+    public AnimalType getType(){
+        return type;
+    }
 }
