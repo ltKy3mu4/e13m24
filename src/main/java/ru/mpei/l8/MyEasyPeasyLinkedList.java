@@ -4,8 +4,8 @@ import java.util.*;
 
 public class MyEasyPeasyLinkedList<T> implements List<T> {
 
-    private ElementWrap<T> first = null;
-    private ElementWrap<T> last = null;
+    protected ElementWrap<T> first = null;
+    protected ElementWrap<T> last = null;
     private int size = 0;
 
     @Override
@@ -63,6 +63,8 @@ public class MyEasyPeasyLinkedList<T> implements List<T> {
         if (found == null){
             return false;
         }
+
+        size--;
 
         if (found.getPrev() != null && found.getNext() != null){
             found.getPrev().setNext(found.getNext());
