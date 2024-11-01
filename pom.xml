@@ -9,11 +9,24 @@
     <version>1.0</version>
 
     <properties>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+<!--    <repositories>-->
+<!--        <repository>-->
+<!--            <id>central</id>-->
+<!--            <name>Maven Repository Switchboard</name>-->
+<!--            <url>https://repo1.maven.org/maven2</url>-->
+<!--        </repository>-->
+
+<!--        <repository>-->
+<!--            <id>jade-tilab</id>-->
+<!--            <name>dsadas</name>-->
+<!--            <url>https://jade.tilab.com/maven/</url>-->
+<!--        </repository>-->
+<!--    </repositories>-->
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
@@ -38,6 +51,14 @@
             <version>1.18.34</version>
             <scope>provided</scope>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.reflections/reflections -->
+        <dependency>
+            <groupId>org.reflections</groupId>
+            <artifactId>reflections</artifactId>
+            <version>0.10.2</version>
+        </dependency>
+
 
 
 
