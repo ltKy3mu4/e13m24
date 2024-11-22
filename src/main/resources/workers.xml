@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfg>
+    <workers>
+        <worker name="John" surname="Smith" age="30" sex="Male" department="RZIA" salary="100000"/>
+        <worker name="Jack" surname="James" age="50" sex="Male" department="CDEZ" salary="80000"/>
+        <worker name="Suzi" surname="Kollins" age="20" sex="Female" department="Samokat" salary="300000"/>
+        <worker name="Ivan" surname="Smith" age="60" sex="Male" department="Sber" salary="1000000"/>
+        <worker name="Kate" surname="Chu" age="45" sex="Female" department="Yandex" salary="20000"/>
+        <worker name="Alex" surname="Jimmi" age="34" sex="Male" department="RZIA" salary="30000"/>
+        <worker name="Anna" surname="Long" age="22" sex="Female" department="Yandex" salary="150000"/>
+        <worker name="Kira" surname="Ivanova" age="18" sex="Female" department="Sber" salary="40000"/>
+    </workers>
+</cfg>
