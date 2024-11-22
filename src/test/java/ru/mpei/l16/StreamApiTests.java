@@ -76,6 +76,11 @@ public class StreamApiTests {
         System.out.println(collect);
     }
 
+    //1.найти всех женщин старше 21 года и вывести их фамилию и имя через :
+    //2. Найти количество сотрудников мужичн и женщин (Map<String, int>)
+    //3. Найти сотрудника с наибольшей зарплатой (findAny)
+    //4. Сгориппировать сотрудников по отделам (Map<Strind, List<Worker>)
+
     @BeforeEach
     public void beforeEach(){
         employee = XmlSerialization.deserialize("src/main/resources/workers.xml", RootCfg.class).get().getWorkers();
